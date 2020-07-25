@@ -6,7 +6,7 @@ class Time
 {
     public:
     int h,m,s,ts;
-    //getin() to get the inputs
+    //getin() to get the inputs of the program
     void getin()
     {
         cout<<"Enter time:"<<endl;
@@ -17,7 +17,7 @@ class Time
         cout<<"Seconds? ";
         cin>>s;
     }
-    //getout() to get the outputs
+    //getout() to get the outputs of the program
     void getout()
     {
         cout<<"The time is = "<<setw(2)<<setfill('0')<<h<<":"<<setw(2)<<setfill('0')<<m<<":"<<setw(2)<<setfill('0')<<s<<endl;
